@@ -16,7 +16,8 @@ App.Products = DS.Model.extend({
 });
 
 App.Products.FIXTURES = [
-  { id: 1, title: 'Rube Goldberg Breakfast-o-Matic' }
+  { id: 1, title: 'Rube Goldberg Breakfast-o-Matic' },
+  { id: 2, title: 'Product Red' }
 ];
 
 App.ProductsRoute = Ember.Route.extend({
